@@ -8,9 +8,9 @@ The order of operations for the notebooks is as follows:
 
 1. zip.ipynb - use to unzip all the data files
 2. move-data-to-postgres.ipynb
-4. eda-neighborhoods.ipynb
-5. eda-time.ipynb
-6. sarima.ipynb
-7. lr-with-unemployment.ipynb
+3. eda-determine-sampling-rate.ipynb - use this to decide on grouping by month
+4. eda-group-neighborhoods.ipynb
+5. forecast-using-sarima.ipynb
+6. forecast-using-linreg.ipynb
 
 For more information, please read my [blog post](https://harrisonized.github.io/2019/06/25/sf-rent-petitions.html) and feel free to [email me](mailto:harrisonized@gmail.com) with any questions.

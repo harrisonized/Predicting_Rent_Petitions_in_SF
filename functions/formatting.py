@@ -1,6 +1,3 @@
-
-
-
 # Objects included in this file:
 
 # Functions included in this file:
@@ -11,6 +8,7 @@ def title_to_snake_case(text):
     """Converts "Column Title" to column_title
     """
     return text.lower().replace(' ', '_').replace('-', '_')
+
 
 def replace_char_with_space(text, chars):
     """From StackOverflow

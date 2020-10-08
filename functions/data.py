@@ -1,17 +1,65 @@
-import datetime as dt
 import json
 import numpy as np
 import pandas as pd
-import matplotlib.dates as mdates
 from .formatting import title_to_snake_case, replace_char_with_space
 
 pd.set_option('mode.chained_assignment', None)
 
 
 # Objects included in this file:
+# stationary_neighborhoods
+# non_stationary_neighborhoods
 
 # Functions included in this file:
 # # preprocess
+
+
+stationary_neighborhoods = [
+    "Chinatown",
+    "Financial District/South Beach",
+    "Glen Park",
+    "Golden Gate Park",
+    "Japantown",
+    "Lakeshore",
+    "Lincoln Park",
+    "McLaren Park",
+    "Mission Bay",
+    "Nob Hill",
+    "Oceanview/Merced/Ingleside",
+    "Portola",
+    "Potrero Hill",
+    "Seacliff",
+    "South of Market",
+    "Treasure Island",
+    "Twin Peaks",
+    "Visitacion Valley",
+    "West of Twin Peaks",
+]
+
+
+non_stationary_neighborhoods = [
+    "Bayview Hunters Point",
+    "Bernal Heights",
+    "Castro/Upper Market",
+    "Excelsior",
+    "Haight Ashbury",
+    "Hayes Valley",
+    "Inner Richmond",
+    "Inner Sunset",
+    "Lone Mountain/USF",
+    "Marina",
+    "Mission",
+    "Noe Valley",
+    "Outer Richmond",
+    "Pacific Heights",
+    "Russian Hill",
+    "Sunset/Parkside",
+    "Tenderloin",
+    "North Beach",
+    "Outer Mission",
+    "Presidio Heights",
+    "Western Addition",
+]
 
 
 def preprocess(df):
