@@ -1,7 +1,7 @@
 import json
 import numpy as np
 import pandas as pd
-from .formatting import title_to_snake_case, replace_char_with_space
+from .formatting.text_tools import title_to_snake_case, replace_char_with_space
 
 pd.set_option('mode.chained_assignment', None)
 
